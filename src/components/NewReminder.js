@@ -34,7 +34,7 @@ export default function NewReminder() {
       }}
     >
       <div>
-        <h1>Reminder App</h1>
+        <h1>Reminder App Anniversary Edition</h1>
         <form>
           {/*if you want button clicked whenever you hit enter wrap it in form*/}
           <TextField

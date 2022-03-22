@@ -3,6 +3,7 @@ import NewReminder from "./components/NewReminder"
 import ReminderList from "./components/ReminderList"
 import './App.css'
 
+
 // The components for the app will be found in this file
 
 function App() {

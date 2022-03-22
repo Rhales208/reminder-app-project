@@ -1,4 +1,4 @@
-import { List } from "@mui/material"
+
 import {useEffect} from "react"
 
 
@@ -23,8 +23,16 @@ export default function ReminderList({setLoading, setReminders, reminder, loadin
     return (
       
       <div > 
-        {loading ? (<p>Loading...</p>) : reminder.map((d) => <li className='todo-app' // className="reminder-list" imports css to this page
-        key={d.id}>{d.todo}</li>)}
+        {loading ? (<p>Loading...</p>) : reminder.map((d) => 
+         <li className='todo-app' // className="reminder-list" imports css to this page
+        key={d.id}>
+          <div className="card">
+
+          {d.todo}
+          </div>
+          
+          </li>
+        )}
       </div>
     )
 
